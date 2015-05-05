@@ -25,6 +25,7 @@
 	width: 117px;
 	left: 60px;
 	text-align: center;
+	padding-top: 5px;
 }
 
 .wordpress{
@@ -35,6 +36,7 @@
 .com{
 	color: #B3D4E3;
 	font-size: 18px;
+	opacity: .8;
 }
 
 .darker-blue-rectangle-top{
@@ -110,7 +112,7 @@
 }
 
 .white-rectangle{
-	background: white;
+	background: #344050;
 	height: 70px;
 	margin-top: 15px;
 	margin-bottom: 30px;
@@ -121,25 +123,51 @@
 }
 
 .wr-left-rectangle{
-	background: #616E7E;
+	background: white;
 	height: 60px;
-	width: 50px;
+	width: 15%;
 	position: absolute;
-	top: 10px;
 }
 
 .wr-right-rectangle{
-	background: #616E7E;
+	background: #344050;
 	height: 55px;
-	width: 240px;
 	float: right;
+	text-align: left;
+	display: inline;
+	width: 80%;
+}
 
+.wr-top-text{
+	color: white;
+	font-size: 18px;
+	margin-top: auto;
+	margin-bottom: 10px;
+}
+
+.wr-bottom-text{
+	color: #BABCC0;
+	margin: auto;
+	font-size: 14px;
 }
 
 .light-blue-background{
 	background: #E8F0F5;
 	height: 188px;
 	margin: 0;
+	text-align: center;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	-webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.lbb-text{
+	color: #362D51;
+	font-size: 34px;
+	margin: 0 auto;
+	display: inline;
 }
 
 .gray-background{
