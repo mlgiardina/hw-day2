@@ -16,7 +16,7 @@
 	
 }
 .white-rectangle-top{
-	background: white;
+	background: #1D8CBE;
 	height: 32px;
 	position: absolute;
 	top: 50%;
@@ -24,7 +24,17 @@
 	display: inline;
 	width: 117px;
 	left: 60px;
+	text-align: center;
+}
 
+.wordpress{
+	color: white;
+	font-size: 18px;
+}
+
+.com{
+	color: #B3D4E3;
+	font-size: 18px;
 }
 
 .darker-blue-rectangle-top{
@@ -36,6 +46,14 @@
 	-webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
           box-sizing: border-box;
+    text-align: center;
+   padding: 15px;
+}
+
+.log-in{
+	color: white;
+	font-size: 14px;
+	text-align: center;
 
 }
 
@@ -70,6 +88,16 @@
 	margin-top: 35px;
 	height: 50px;
 	width: 227px;
+	text-align: center;
+
+}
+
+.button1{
+	color: white;
+	font-size: 28px;
+	text-align: center;
+	position: relative;
+	top: 10px
 }
 
 .small-white-rectangle{
