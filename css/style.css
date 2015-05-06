@@ -123,41 +123,38 @@
 	margin-right: auto;
 	position: relative;
 	padding-right: 4px;
-	display: inline block;
 	width: 400px;
 }
 
 .tablet {
 	background: url(../images/tablet.png);
-	background-size: 85%;
+	background-size: 75%;
 	background-repeat: no-repeat;
 }
 
 .newspaper{
 	background: url(../images/newspaper.png);
-	background-size: 85%;
+	background-size: 75%;
 	background-repeat: no-repeat;
 }
 
 .paintbrush{
 	background: url(../images/paint-brush.png);
-	background-size: 85%;
+	background-size: 75%;
 	background-repeat: no-repeat;
 }
 .wr-left-rectangle{
 	height: 60px;
-	width: 60px;
-	position: absolute;
-	left: 20px;
-	display: inline;
-	left: 70px;
+	width: 60px;	
+	float: left;
+	padding: 10px;
 }
 
 .wr-right-rectangle{
 	height: 55px;
 	float: right;
 	text-align: left;
-	display: inline;
+	float: left;
 	width: 230px;
 
 }
