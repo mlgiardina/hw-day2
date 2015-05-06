@@ -156,8 +156,8 @@
 	height: 188px;
 	margin: 0;
 	text-align: center;
-	padding-top: 15px;
-	padding-bottom: 15px;
+	padding-top: 25px;
+	padding-bottom: 25px;
 	-webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
           box-sizing: border-box;
@@ -165,7 +165,7 @@
 
 .lbb-text{
 	color: #362D51;
-	font-size: 34px;
+	font-size: 28px;
 	margin: 0 auto;
 	display: inline;
 	overflow: auto;
@@ -203,21 +203,27 @@
 
 .bwr-short-rectangle{
 	height: 22px;
-	background: #C7D2D8;
+	background: white;
 	position: relative;
-	top: 10px;
+	top: -15px;
 	text-align: center;
 }
 
 .bwr-header-text{
+	color: #284C63;
+	font-size: 24px;
+}
 
+.bwr-subtext{
+	color: black;
 }
 
 .bwr-big-rectangle{
 	height: 50px;
-	background: #C7D2D8;
+	background: white;
 	position: relative;
-	top: 27px;
+	text-align: center;
+	top: -10px;
 }
 
 .light-blue-rectangle2{
@@ -225,6 +231,7 @@
 	background: #E8F0F5;
 	margin: 0;
 	text-align: center;
+	padding-top: 15px;
 	-webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
           box-sizing: border-box;
