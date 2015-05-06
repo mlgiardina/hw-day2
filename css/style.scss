@@ -4,11 +4,14 @@ $background-cover: cover;
 $main-images: 60%;
 $wordpress: 18px;
 $main-repeat: no-repeat;
+$main-margin-left: 25px;
 $bwr-height: 215px;
 $bwr-color: white;
 $feature-repeat: no-repeat;
 $lbb-background: #E8F0F5;
 $lbb-text-color: #362D51;
+$lbb-text-size: 24px;
+
 
 
 .top-bar {
@@ -102,9 +105,7 @@ $lbb-text-color: #362D51;
 	height: 50px;
 	width: 227px;
 	text-align: center;
-	box-shadow: 0px 0px 0px 10px rgba(0,0,0,0.3)
-
-
+	box-shadow: 0px 0px 0px 10px rgba(0,0,0,0.4)
 }
 
 .button1{
@@ -117,11 +118,12 @@ $lbb-text-color: #362D51;
 
 .small-white-rectangle{
 	height: 20px;
-	background: $white;
 	margin-top: 210px;
 	margin-left: 45%;
 	margin-right: 45%;
 	margin-bottom: 105px;
+	color: white;
+	font-size: 48px;
 }
 
 .white-rectangle{
@@ -139,18 +141,21 @@ $lbb-text-color: #362D51;
 	background-image: url(../images/tablet.png);
 	background-size: $main-images;
 	background-repeat: $main-repeat;
+	margin-left: $main-margin-left;
 }
 
 .newspaper{
 	background-image: url(../images/newspaper.png);
 	background-size: $main-images;
 	background-repeat: $main-repeat;
+	margin-left: $main-margin-left;
 }
 
 .paintbrush{
 	background-image: url(../images/paint-brush.png);
 	background-size: $main-images;
 	background-repeat: $main-repeat;
+	margin-left: $main-margin-left;
 }
 .wr-left-rectangle{
 	height: 60px;
@@ -192,12 +197,12 @@ $lbb-text-color: #362D51;
 }
 
 .lbb-text{
-		color: $lbb-text-color;
-		font-size: 28px;
-		margin-top: 15px;
-		margin-bottom: 15px;
-		display: inline-block;
-		padding-top: 15px;
+	color: $lbb-text-color;
+	font-size: $lbb-text-size;
+	margin-top: 15px;
+	margin-bottom: auto;
+	display: inline-block;
+	padding-top: 15px;
 }
 
 .gray-background{
@@ -208,19 +213,19 @@ $lbb-text-color: #362D51;
 }
 
 .big-white-rectangle{
-		height: $bwr-height;
-		background: $bwr-color;
-		margin-top: 0;
-		margin-bottom: 30px;
-		margin-right: 2%;
-		margin-left: 2%;
-		padding-top: 20px;
-		padding-right: 15px;
-		padding-left: 15px;
-		padding-bottom: 35px;
-		-webkit-box-sizing: border-box;
-	     -moz-box-sizing: border-box;
-	          box-sizing: border-box;
+	height: $bwr-height;
+	background: $bwr-color;
+	margin-top: 0;
+	margin-bottom: 30px;
+	margin-right: 2%;
+	margin-left: 2%;
+	padding-top: 20px;
+	padding-right: 15px;
+	padding-left: 15px;
+	padding-bottom: 35px;
+	-webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .bwr-square{
@@ -301,8 +306,9 @@ $lbb-text-color: #362D51;
 .light-blue-rectangle2{
 	height: 170px;
 	background: $lbb-background;
-	margin: 0;
+	// margin: 0;
 	text-align: center;
+	padding-bottom: 20px;
 	-webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
           box-sizing: border-box;
@@ -314,7 +320,9 @@ $lbb-text-color: #362D51;
 	margin-left: auto;
 	margin-right: auto;
 	width: 212px;
-
+	position: relative;
+	top: 10px;
+	margin-top: 10px;
 }
 
 .bottom-menu{
@@ -354,4 +362,5 @@ $lbb-text-color: #362D51;
 	margin-left: 37%;
 	margin-right: 37%;
 	margin-top: 20px;
+	width: 165px;
 }

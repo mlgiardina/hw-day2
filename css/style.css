@@ -77,7 +77,7 @@
   height: 50px;
   width: 227px;
   text-align: center;
-  box-shadow: 0px 0px 0px 10px rgba(0, 0, 0, 0.3); }
+  box-shadow: 0px 0px 0px 10px rgba(0, 0, 0, 0.4); }
 
 .button1 {
   color: white;
@@ -88,11 +88,12 @@
 
 .small-white-rectangle {
   height: 20px;
-  background: white;
   margin-top: 210px;
   margin-left: 45%;
   margin-right: 45%;
-  margin-bottom: 105px; }
+  margin-bottom: 105px;
+  color: white;
+  font-size: 48px; }
 
 .white-rectangle {
   height: 70px;
@@ -107,17 +108,20 @@
 .tablet {
   background-image: url(../images/tablet.png);
   background-size: 60%;
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+  margin-left: 25px; }
 
 .newspaper {
   background-image: url(../images/newspaper.png);
   background-size: 60%;
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+  margin-left: 25px; }
 
 .paintbrush {
   background-image: url(../images/paint-brush.png);
   background-size: 60%;
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+  margin-left: 25px; }
 
 .wr-left-rectangle {
   height: 60px;
@@ -154,9 +158,9 @@
 
 .lbb-text {
   color: #362D51;
-  font-size: 28px;
+  font-size: 24px;
   margin-top: 15px;
-  margin-bottom: 15px;
+  margin-bottom: auto;
   display: inline-block;
   padding-top: 15px; }
 
@@ -248,8 +252,8 @@
 .light-blue-rectangle2 {
   height: 170px;
   background: #E8F0F5;
-  margin: 0;
   text-align: center;
+  padding-bottom: 20px;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
@@ -259,7 +263,10 @@
   background: #268DBC;
   margin-left: auto;
   margin-right: auto;
-  width: 212px; }
+  width: 212px;
+  position: relative;
+  top: 10px;
+  margin-top: 10px; }
 
 .bottom-menu {
   background: black;
@@ -294,4 +301,5 @@
   height: 23px;
   margin-left: 37%;
   margin-right: 37%;
-  margin-top: 20px; }
+  margin-top: 20px;
+  width: 165px; }
