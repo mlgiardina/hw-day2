@@ -6,7 +6,8 @@
 }
 
 .white-square-top{
-	background: white;
+	background: url(../images/logo.png);
+	background-size: cover;
 	height: 32px;
 	width: 32px;
 	position: absolute;
@@ -61,7 +62,9 @@
 
 .main-page {
 	height: 945px;
-	background: #344050;
+	background: #344050 url(../images/crowd.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
 	margin: 0;
 	padding-top: 170px;
 }
@@ -92,6 +95,7 @@
 	width: 227px;
 	text-align: center;
 
+
 }
 
 .button1{
@@ -112,7 +116,6 @@
 }
 
 .white-rectangle{
-	background: #344050;
 	height: 70px;
 	margin-top: 15px;
 	margin-bottom: 30px;
@@ -120,22 +123,40 @@
 	margin-right: 17%;
 	position: relative;
 	padding-right: 4px;
+	display: block;
 }
 
+.tablet {
+	background: url(../images/tablet.png);
+	background-size: 85%;
+	background-repeat: no-repeat;
+}
+
+.newspaper{
+	background: url(../images/newspaper.png);
+	background-size: 85%;
+	background-repeat: no-repeat;
+}
+
+.paintbrush{
+	background: url(../images/paint-brush.png);
+	background-size: 85%;
+	background-repeat: no-repeat;
+}
 .wr-left-rectangle{
-	background: white;
 	height: 60px;
-	width: 15%;
+	width: 60px;
 	position: absolute;
+	left: 20px;
+	display: inline;
 }
 
 .wr-right-rectangle{
-	background: #344050;
 	height: 55px;
 	float: right;
 	text-align: left;
 	display: inline;
-	width: 80%;
+	width: 230px;
 }
 
 .wr-top-text{
@@ -195,10 +216,47 @@
 }
 
 .bwr-square{
-	background: #C7D2D8;
+	background-color: #C7D2D8;
+	border-radius: 50%;
 	height: 64px;
 	width: 64px;
 	margin: 0 auto;
+}
+
+.lightbulb{
+	background: url(../images/lightbulb.png);
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.cloud{
+	background: url(../images/cloud.png);
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.code{
+	background: url(../images/code.png);
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.comments{
+	background: url(../images/comments.png);
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.gift{
+	background: url(../images/gift.png);
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.globe{
+	background: url(../images/globe.png);
+	background-position: center;
+	background-repeat: no-repeat;
 }
 
 .bwr-short-rectangle{
@@ -274,7 +332,10 @@
 }
 
 .bottom-white-rectangle{
-	background: white;
+	background: url(../images/automattic.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
 	height: 23px;
 	margin-left: 37%;
 	margin-right: 37%;
