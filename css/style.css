@@ -70,7 +70,7 @@
   padding-top: 40px; }
 
 .button-top {
-  border: 10px solid #20212A;
+  border: 10px solid, rgba(0, 0, 0, 0.5);
   background: #268DBC;
   margin-left: auto;
   margin-right: auto;
@@ -192,37 +192,37 @@
   background-image: url(../images/lightbulb.png);
   background-position: center;
   background-repeat: no-repeat;
-  background-size: 80%; }
+  background-size: 60%; }
 
 .cloud {
   background-image: url(../images/cloud.png);
   background-position: center;
   background-repeat: no-repeat;
-  background-size: 80%; }
+  background-size: 60%; }
 
 .code {
   background-image: url(../images/code.png);
   background-position: center;
   background-repeat: no-repeat;
-  background-size: 80%; }
+  background-size: 60%; }
 
 .comments {
   background-image: url(../images/comments.png);
   background-position: center;
   background-repeat: no-repeat;
-  background-size: 80%; }
+  background-size: 60%; }
 
 .gift {
   background-image: url(../images/gift.png);
   background-position: center;
   background-repeat: no-repeat;
-  background-size: 80%; }
+  background-size: 60%; }
 
 .globe {
   background-image: url(../images/globe.png);
   background-position: center;
   background-repeat: no-repeat;
-  background-size: 80%; }
+  background-size: 60%; }
 
 .bwr-short-rectangle {
   height: 22px;
@@ -235,15 +235,15 @@
   color: #284C63;
   font-size: 24px; }
 
-.bwr-subtext {
-  color: black; }
-
 .bwr-big-rectangle {
   height: 50px;
   background: white;
   position: relative;
   text-align: center;
   top: -10px; }
+
+.bwr-subtext {
+  color: black; }
 
 .light-blue-rectangle2 {
   height: 170px;
