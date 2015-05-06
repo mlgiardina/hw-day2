@@ -193,6 +193,7 @@
 	margin: 15px;
 	display: inline;
 	overflow: auto;
+	padding: 10px;
 }
 
 .gray-background{
@@ -227,37 +228,37 @@
 }
 
 .lightbulb{
-	background: url(../images/lightbulb.png);
+	background-image: url(../images/lightbulb.png);
 	background-position: center;
 	background-repeat: no-repeat;
 }
 
 .cloud{
-	background: url(../images/cloud.png);
+	background-image: url(../images/cloud.png);
 	background-position: center;
 	background-repeat: no-repeat;
 }
 
 .code{
-	background: url(../images/code.png);
+	background-image: url(../images/code.png);
 	background-position: center;
 	background-repeat: no-repeat;
 }
 
 .comments{
-	background: url(../images/comments.png);
+	background-image: url(../images/comments.png);
 	background-position: center;
 	background-repeat: no-repeat;
 }
 
 .gift{
-	background: url(../images/gift.png);
+	background-image: url(../images/gift.png);
 	background-position: center;
 	background-repeat: no-repeat;
 }
 
 .globe{
-	background: url(../images/globe.png);
+	background-image: url(../images/globe.png);
 	background-position: center;
 	background-repeat: no-repeat;
 }
