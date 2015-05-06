@@ -1,3 +1,19 @@
+$feature-images: 80%;
+$white: white;
+$background-cover: cover;
+$main-images: 60%;
+$wordpress: 18px;
+$main-repeat: no-repeat;
+$bwr-height: 215px;
+$bwr-color: white;
+$feature-repeat: no-repeat;
+$lbb-background: #E8F0F5;
+$lbb-text-color: #362D51;
+
+
+
+
+
 .top-bar {
 	height: 50px;
 	background: #1D8CBE;
@@ -7,36 +23,32 @@
 
 .white-square-top{
 	background: url(../images/logo.png);
-	background-size: cover;
+	background-size: $background-cover;
 	height: 32px;
 	width: 32px;
-	position: absolute;
-	top: 50%;
-	margin-top: -16px;
+	float: left;
 	left: 15px;
-	
+	margin: 7px;	
 }
+
 .white-rectangle-top{
 	background: #1D8CBE;
 	height: 32px;
-	position: absolute;
-	top: 50%;
-	margin-top: -16px;
-	display: inline;
-	width: 117px;
-	left: 60px;
+	float: left;
 	text-align: center;
 	padding-top: 5px;
+	margin: 7px;
+	margin-top: 10px;
 }
 
 .wordpress{
-	color: white;
-	font-size: 18px;
+	color: $white;
+	font-size: $wordpress;
 }
 
 .com{
 	color: #B3D4E3;
-	font-size: 18px;
+	font-size: $wordpress;
 	opacity: .8;
 }
 
@@ -54,7 +66,7 @@
 }
 
 .log-in{
-	color: white;
+	color: $white;
 	font-size: 14px;
 	text-align: center;
 
@@ -64,21 +76,20 @@
 	height: 945px;
 	background: #344050 url(../images/crowd.jpg);
 	background-repeat: no-repeat;
-	background-size: cover;
+	background-size: $background-cover;
 	margin: 0;
 	padding-top: 170px;
 }
 
 .main {
-	color: white;
-	font-family: ;
+	color: $white;
 	margin: 0 auto;
 	text-align: center;
 	font-size: 36px;
 }
 
 .additional-info {
-	color: white;
+	color: $white;
 	text-align: center;
 	font-size: 16px;
 	margin: 0 auto;
@@ -99,7 +110,7 @@
 }
 
 .button1{
-	color: white;
+	color: $white;
 	font-size: 28px;
 	text-align: center;
 	position: relative;
@@ -108,7 +119,7 @@
 
 .small-white-rectangle{
 	height: 20px;
-	background: white;
+	background: $white;
 	margin-top: 210px;
 	margin-left: 45%;
 	margin-right: 45%;
@@ -128,31 +139,30 @@
 
 .tablet {
 	background-image: url(../images/tablet.png);
-	background-size: 75%;
-	background-repeat: no-repeat;
+	background-size: $main-images;
+	background-repeat: $main-repeat;
 }
 
 .newspaper{
 	background-image: url(../images/newspaper.png);
-	background-size: 75%;
-	background-repeat: no-repeat;
+	background-size: $main-images;
+	background-repeat: $main-repeat;
 }
 
 .paintbrush{
 	background-image: url(../images/paint-brush.png);
-	background-size: 75%;
-	background-repeat: no-repeat;
+	background-size: $main-images;
+	background-repeat: $main-repeat;
 }
 .wr-left-rectangle{
 	height: 60px;
 	width: 60px;	
 	float: left;
-	padding: 10px;
+	padding: 5px;
 }
 
 .wr-right-rectangle{
 	height: 55px;
-	float: right;
 	text-align: left;
 	float: left;
 	width: 230px;
@@ -160,7 +170,7 @@
 }
 
 .wr-top-text{
-	color: white;
+	color: $white;
 	font-size: 18px;
 	margin-top: auto;
 	margin-bottom: 10px;
@@ -173,11 +183,10 @@
 }
 
 .light-blue-background{
-	background: #E8F0F5;
+	background: $lbb-background;
 	height: 188px;
 	margin: 0;
 	text-align: center;
-	padding-top: 25px;
 	padding-bottom: 25px;
 	-webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
@@ -185,12 +194,12 @@
 }
 
 .lbb-text{
-	color: #362D51;
+	color: $lbb-text-color;
 	font-size: 28px;
-	margin: 15px;
-	display: inline;
-	overflow: auto;
-	padding: 10px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	display: inline-block;
+	padding-top: 15px;
 }
 
 .gray-background{
@@ -201,8 +210,8 @@
 }
 
 .big-white-rectangle{
-	height: 215px;
-	background: white;
+	height: $bwr-height;
+	background: $bwr-color;
 	margin-top: 0;
 	margin-bottom: 30px;
 	margin-right: 2%;
@@ -227,42 +236,48 @@
 .lightbulb{
 	background-image: url(../images/lightbulb.png);
 	background-position: center;
-	background-repeat: no-repeat;
+	background-repeat: $feature-repeat;
+	background-size: $feature-images;
 }
 
 .cloud{
 	background-image: url(../images/cloud.png);
 	background-position: center;
-	background-repeat: no-repeat;
+	background-repeat: $feature-repeat;
+	background-size: $feature-images;
 }
 
 .code{
 	background-image: url(../images/code.png);
 	background-position: center;
-	background-repeat: no-repeat;
+	background-repeat: $feature-repeat;
+	background-size: $feature-images;
 }
 
 .comments{
 	background-image: url(../images/comments.png);
 	background-position: center;
-	background-repeat: no-repeat;
+	background-repeat: $feature-repeat;
+	background-size: $feature-images;
 }
 
 .gift{
 	background-image: url(../images/gift.png);
 	background-position: center;
-	background-repeat: no-repeat;
+	background-repeat: $feature-repeat;
+	background-size: $feature-images;
 }
 
 .globe{
 	background-image: url(../images/globe.png);
 	background-position: center;
-	background-repeat: no-repeat;
+	background-repeat: $feature-repeat;
+	background-size: $feature-images;
 }
 
 .bwr-short-rectangle{
 	height: 22px;
-	background: white;
+	background: $white;
 	position: relative;
 	top: -15px;
 	text-align: center;
@@ -279,7 +294,7 @@
 
 .bwr-big-rectangle{
 	height: 50px;
-	background: white;
+	background: $white;
 	position: relative;
 	text-align: center;
 	top: -10px;
@@ -287,10 +302,9 @@
 
 .light-blue-rectangle2{
 	height: 170px;
-	background: #E8F0F5;
+	background: $lbb-background;
 	margin: 0;
 	text-align: center;
-	padding-top: 15px;
 	-webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
           box-sizing: border-box;
@@ -302,6 +316,7 @@
 	margin-left: auto;
 	margin-right: auto;
 	width: 212px;
+
 }
 
 .bottom-menu{
@@ -315,7 +330,7 @@
 }
 
 .bottom-links-row1{
-	color: white;
+	color: $white;
 	text-align: center;
 	margin-left: 8px;
 	margin-right: 8px;
@@ -324,7 +339,7 @@
 }
 
 .bottom-links-row2{
-	color: white;
+	color: $white;
 	text-align: center;
 	margin-left: 8px;
 	margin-right: 8px;
@@ -335,7 +350,7 @@
 .bottom-white-rectangle{
 	background: url(../images/automattic.png);
 	background-repeat: no-repeat;
-	background-size: cover;
+	background-size: $background-cover;
 	background-position: center;
 	height: 23px;
 	margin-left: 37%;
