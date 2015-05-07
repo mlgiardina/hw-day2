@@ -21,15 +21,13 @@
   padding-top: 5px;
   margin: 7px;
   margin-top: 10px; }
-
-.wordpress {
-  color: white;
-  font-size: 18px; }
-
-.com {
-  color: #B3D4E3;
-  font-size: 18px;
-  opacity: .8; }
+  .white-rectangle-top .wordpress {
+    color: white;
+    font-size: 18px; }
+  .white-rectangle-top .com {
+    color: #B3D4E3;
+    font-size: 18px;
+    opacity: .8; }
 
 .darker-blue-rectangle-top {
   background: #0E71A2;
@@ -104,24 +102,21 @@
   position: relative;
   padding-right: 4px;
   width: 400px; }
-
-.tablet {
-  background-image: url(../images/tablet.png);
-  background-size: 60%;
-  background-repeat: no-repeat;
-  margin-left: 25px; }
-
-.newspaper {
-  background-image: url(../images/newspaper.png);
-  background-size: 60%;
-  background-repeat: no-repeat;
-  margin-left: 25px; }
-
-.paintbrush {
-  background-image: url(../images/paint-brush.png);
-  background-size: 60%;
-  background-repeat: no-repeat;
-  margin-left: 25px; }
+  .white-rectangle .tablet {
+    background-image: url(../images/tablet.png);
+    background-size: 60%;
+    background-repeat: no-repeat;
+    margin-left: 25px; }
+  .white-rectangle .newspaper {
+    background-image: url(../images/newspaper.png);
+    background-size: 60%;
+    background-repeat: no-repeat;
+    margin-left: 25px; }
+  .white-rectangle .paintbrush {
+    background-image: url(../images/paint-brush.png);
+    background-size: 60%;
+    background-repeat: no-repeat;
+    margin-left: 25px; }
 
 .wr-left-rectangle {
   height: 60px;

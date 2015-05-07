@@ -39,17 +39,16 @@ $lbb-text-size: 24px;
 	padding-top: 5px;
 	margin: 7px;
 	margin-top: 10px;
-}
+	.wordpress{
+		color: $white;
+		font-size: $wordpress;
+	}
 
-.wordpress{
-	color: $white;
-	font-size: $wordpress;
-}
-
-.com{
-	color: #B3D4E3;
-	font-size: $wordpress;
-	opacity: .8;
+	.com{
+		color: #B3D4E3;
+		font-size: $wordpress;
+		opacity: .8;
+	}
 }
 
 .darker-blue-rectangle-top{
@@ -135,27 +134,27 @@ $lbb-text-size: 24px;
 	position: relative;
 	padding-right: 4px;
 	width: 400px;
-}
 
-.tablet {
-	background-image: url(../images/tablet.png);
-	background-size: $main-images;
-	background-repeat: $main-repeat;
-	margin-left: $main-margin-left;
-}
+	.tablet {
+		background-image: url(../images/tablet.png);
+		background-size: $main-images;
+		background-repeat: $main-repeat;
+		margin-left: $main-margin-left;
+	}
 
-.newspaper{
-	background-image: url(../images/newspaper.png);
-	background-size: $main-images;
-	background-repeat: $main-repeat;
-	margin-left: $main-margin-left;
-}
+		.newspaper{
+		background-image: url(../images/newspaper.png);
+		background-size: $main-images;
+		background-repeat: $main-repeat;
+		margin-left: $main-margin-left;
+	}	
 
-.paintbrush{
-	background-image: url(../images/paint-brush.png);
-	background-size: $main-images;
-	background-repeat: $main-repeat;
-	margin-left: $main-margin-left;
+	.paintbrush{
+		background-image: url(../images/paint-brush.png);
+		background-size: $main-images;
+		background-repeat: $main-repeat;
+		margin-left: $main-margin-left;
+	}
 }
 .wr-left-rectangle{
 	height: 60px;
